@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #71D0AA;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.custom-navbar {
+    background-color: #71D0AA;
+}
+
+.custom-navbar .nav-link {
+    color: #fff !important;
+}
+navbartitulo{
+    font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-footer {
+    background-color: #71D0AA;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
