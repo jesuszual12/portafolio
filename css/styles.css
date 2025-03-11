@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #F0FAF1;
 }
 
 header {
@@ -18,21 +18,20 @@ header {
 
 .custom-navbar .nav-link {
     color: #fff !important;
+    margin-right: 10px; /* Reduce el espacio entre los enlaces */
 }
-navbartitulo{
+
+.luckiest-guy-regular {
     font-family: "Luckiest Guy", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 2.5rem; /* Aumenta el tamaño de la fuente */
+    margin-left: 10px; /* Separa del costado */
 }
 
-h1 {
-    margin: 0;
-}
-
-main {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px auto;
+.custom-card {
+    background-color: #F0FAF1;
+    border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -41,7 +40,28 @@ main {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+}
+
+.text-center h1, .text-center h2 {
+    text-align: center;
+}
+
+.tech-icon, .cert-icon, .inst-icon, .project-img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+.project-card {
+    text-align: center;
+    margin: 10px;
+}
+
+.project-card img {
+    width: 200px;
+    height: auto;
+}
+
+.project-card .btn {
+    margin-top: 10px;
 }

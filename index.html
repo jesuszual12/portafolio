@@ -7,13 +7,13 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
-            <a class="navbar-brand" id="navbartitulo" href="#">Portafolio</a>
+            <a class="navbar-brand luckiest-guy-regular" id="navbartitulo" href="#">Portafolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,36 +33,112 @@
                     </li>
                 </ul>
             </div>
-            <a href="path/to/curriculum.pdf" class="btn btn-primary" download>Descargar Currículum</a>
-        </nav>        </nav>        </nav>
+            <a href="path/to/curriculum.pdf" class="btn btn-primary ml-2" download>Currículum</a>
+        </nav>
     </header>
-    <main class="container my-5">
-        <section id="sobre-mi" class="my-5">
-            <h2>Sobre mí</h2>
-            <p>Este es el contenido de mi portafolio. Aquí puedes encontrar información sobre mis proyectos, habilidades y experiencia.</p>tenido de mi portafolio. Aquí puedes encontrar información sobre mis proyectos, habilidades y experiencia.</p>tenido de mi portafolio. Aquí puedes encontrar información sobre mis proyectos, habilidades y experiencia.</p>
-        </section>
-
-        <section id="proyectos" class="my-5">
-            <h2>Proyectos</h2>
-            <p>Aquí puedes encontrar información sobre mis proyectos.</p>
-        </section>
-
+    
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <img src="assets/img/photo_5001408185931771781_y.jpg" class="img-fluid" alt="Imagen sobre mí">
+            </div>
+            <div class="col-md-8">
+                <h1 class="text-center">Full stack</h1>
+                <h2 class="text-center">Desarrollador Front end y Back end</h2>
+                <section id="sobre-mi" class="my-5">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <h2 class="text-left">Sobre mí</h2>
+                            <p>Hola mi nombre es Jose de Jesus Zuñiga Alarcon tengo 20 años, en la actualidad, soy estudiante de la carrera de tecnologias de la informacion y desarrollo de software, soy una persona tranquila con motivacion de aprender nuevos lenguajes, soy organizado y se trabajar en equipo.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container my-5">
         <section id="habilidades" class="my-5">
-            <h2>Habilidades</h2>
-            <p>Aquí puedes encontrar información sobre mis habilidades.</p>
+            <h2 class="text-center">Mis tecnologías que manejo:</h2>
+            <div class="d-flex justify-content-center">
+                <!-- Añade aquí los iconos de las tecnologías -->
+                <img src="path/to/html-icon.png" alt="HTML" class="tech-icon">
+                <img src="path/to/css-icon.png" alt="CSS" class="tech-icon">
+                <img src="path/to/js-icon.png" alt="JavaScript" class="tech-icon">
+                <!-- Añade más iconos según sea necesario -->
+            </div>
         </section>
-
-        <section id="experiencia" class="my-5">
-            <h2>Experiencia</h2>
-            <p>Aquí puedes encontrar información sobre mi experiencia.</p>
+    </div>
+    
+    <div class="container my-5">
+        <section id="cursos" class="my-5">
+            <h2 class="text-center">Cursos y certificaciones:</h2>
+            <div class="d-flex justify-content-center">
+                <!-- Añade aquí las imágenes de los certificados -->
+                <img src="path/to/cert1.png" alt="Certificado 1" class="cert-icon">
+                <img src="path/to/cert2.png" alt="Certificado 2" class="cert-icon">
+                <img src="path/to/cert3.png" alt="Certificado 3" class="cert-icon">
+                <!-- Añade más certificados según sea necesario -->
+            </div>
         </section>
-
-    </main>
+    </div>
+    
+    <div class="container my-5">
+        <section id="estudios" class="my-5">
+            <h2 class="text-center">Estudios:</h2>
+            <div class="d-flex justify-content-center">
+                <!-- Añade aquí los logos de las instituciones -->
+                <img src="path/to/institution1.png" alt="Institución 1" class="inst-icon">
+                <img src="path/to/institution2.png" alt="Institución 2" class="inst-icon">
+                <img src="path/to/institution3.png" alt="Institución 3" class="inst-icon">
+                <!-- Añade más logos según sea necesario -->
+            </div>
+        </section>
+    </div>
+    
+    <div class="container my-5">
+        <section id="proyectos" class="my-5">
+            <h2 class="text-center">Proyectos:</h2>
+            <div class="d-flex justify-content-center">
+                <!-- Añade aquí las imágenes de los proyectos -->
+                <div class="project-card">
+                    <img src="path/to/project1.png" alt="Proyecto 1" class="project-img">
+                    <a href="path/to/project1-code" class="btn btn-primary">Ver Código</a>
+                </div>
+                <div class="project-card">
+                    <img src="path/to/project2.png" alt="Proyecto 2" class="project-img">
+                    <a href="path/to/project2-code" class="btn btn-primary">Ver Código</a>
+                </div>
+                <div class="project-card">
+                    <img src="path/to/project3.png" alt="Proyecto 3" class="project-img">
+                    <a href="path/to/project3-code" class="btn btn-primary">Ver Código</a>
+                </div>
+                <!-- Añade más proyectos según sea necesario -->
+            </div>
+        </section>
+    </div>
+    
+    <div class="container my-5">
+        <section id="practicas" class="my-5">
+            <h2 class="text-center">Prácticas escolares:</h2>
+            <div class="d-flex justify-content-center">
+                <a href="https://yourlink.com" class="btn btn-primary">Ver Prácticas</a>
+            </div>
+        </section>
+    </div>
+    
     <footer class="custom-footer text-white text-center py-3">
         <p>&copy; 2025 Mi Nombre. Todos los derechos reservados.</p>
+        <div class="d-flex justify-content-center">
+            <a href="https://wa.me/your-number" class="btn btn-primary mx-2">WhatsApp</a>
+            <a href="https://facebook.com/your-profile" class="btn btn-primary mx-2">Facebook</a>
+            <a href="tel:your-phone-number" class="btn btn-primary mx-2">7718891267</a>
+            <a href="mailto:josedejesuszual2004@gmail.com" class="btn btn-primary mx-2">josedejesuszual2004@gmail.com</a>
+        </div>
     </footer>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body></html>
+</body>
+</html>
